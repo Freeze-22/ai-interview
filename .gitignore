@@ -1,0 +1,40 @@
+# Secrets & credentials
+*.env
+.env.local
+.env.production
+service-account.json
+*-key.json
+
+# Node
+node_modules/
+.npm
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# FAISS index files (runtime)
+*.faiss
+*.index
+ai-interview-sa-firebase-adminsdk-fbsvc-777d231b28.json
+backend/.env
+frontend/.env.local
+ai-interview-sa-firebase-adminsdk-fbsvc-777d231b28.json
+backend/.env
+frontend/.env.local
